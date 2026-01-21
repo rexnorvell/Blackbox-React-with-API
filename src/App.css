@@ -1,0 +1,84 @@
+body {
+  background-color: rgb(60, 60, 80);
+}
+
+#root {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+#whole-page {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 5px solid white;
+  border-radius: 20px;
+  background-color: rgb(10, 10, 10);
+}
+
+h1 {
+  color: white;
+}
+
+h2 {
+  color: white;
+}
+
+h3 {
+  color: white;
+  font-style: italic;
+  font-weight: 100;
+}
+
+#game-grid {
+  display: grid;
+  grid-template-columns: repeat(10, auto);
+  grid-template-rows: repeat(10, auto);
+}
+
+#game-grid img {
+  width: 100%;
+  display: block;
+}
+
+#title-card {
+  border-top: 5px solid white;
+  border-bottom: 5px solid white;
+  border-radius: 100px;
+  padding: 10px;
+}
+
+#title-card > * {
+  margin: 0;
+}
+
+#game-info {
+  border: 1px solid white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+}
+
+#game-info > * {
+  margin: 0;
+}
+
+button {
+  color: white;
+  background-color: transparent;
+  border: 3px solid white;
+  border-radius: 10px;
+}
+
+button:hover {
+  color: black;
+  background-color: white;
+}
